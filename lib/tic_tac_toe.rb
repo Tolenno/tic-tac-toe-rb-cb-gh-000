@@ -72,7 +72,7 @@ def turn(board)
   player = current_player(board)
   got_valid = false
   puts "Please choose a position between 1-9:"
-  while got_valid = false
+  while got_valid == false
     user_input = gets.strip
     position = input_to_index(user_input)
     if valid_move?(board, position)
