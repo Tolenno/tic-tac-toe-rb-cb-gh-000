@@ -93,3 +93,5 @@ def won?(board) #determines whether or not a player has won and returns the winn
   end
   false
 end
+
+def full?(board)
