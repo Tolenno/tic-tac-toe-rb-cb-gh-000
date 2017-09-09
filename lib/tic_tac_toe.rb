@@ -82,4 +82,14 @@ def turn(board)
 end
 
 def won?(board) #determines whether or not a player has won and returns the winning combination if there is a win and false if there isn't
-  WIN_COMBINATIONS.each do
+  WIN_COMBINATIONS.each do |win_combo|
+    win_combo[0] = pos_one
+    win_combo[1] = pos_two
+    win_combo[2] = pos_three
+
+    if board[pos_one] != " " && board[pos_one] == board[pos_two] && board[pos_two] == board[pos_three]
+    check to see if those indexes on the board are not " " and are equal to each other
+    
+    
+  end
+end
