@@ -122,5 +122,5 @@ end
 
 #returns the current player (X or O) depending on who won
 def winner(board)
-  if won?(board) && current_player(board) == "O" 
-    
+  if won?(board) && current_player(board) == "O"
+    return "X"
