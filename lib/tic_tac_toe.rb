@@ -67,7 +67,6 @@ end
 
 #turn calls on the above helper methods to get input from the user and record a turn
 def turn(board)
-
   player = current_player(board)
   got_valid = false
   puts "Please choose a position between 1-9:"
