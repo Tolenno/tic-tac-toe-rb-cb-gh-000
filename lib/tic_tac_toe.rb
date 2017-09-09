@@ -127,6 +127,8 @@ def winner(board)
     return "X"
   elsif winning_marker == "O"
     return "O"
+  else
+    false
   end
 end
 
