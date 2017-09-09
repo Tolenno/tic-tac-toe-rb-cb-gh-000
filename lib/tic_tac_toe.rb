@@ -104,5 +104,6 @@ end
 def draw?(board)
   if won?(board)
     false
+  elsif full?(board)
   end
 end
