@@ -89,6 +89,7 @@ def won?(board) #determines whether or not a player has won and returns the winn
 
     if board[pos_one] != " " && board[pos_one] == board[pos_two] && board[pos_two] == board[pos_three]
       return win_combo
-
+    end
   end
+  false
 end
