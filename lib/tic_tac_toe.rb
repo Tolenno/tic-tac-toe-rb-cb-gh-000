@@ -125,7 +125,7 @@ def winner(board)
   winning_marker = won?(board)[0]
   if winning_marker == "X"
     return "X"
-  elsif winning_marker =="O"
+  elsif winning_marker == "O"
     return "O"
   end
 end
