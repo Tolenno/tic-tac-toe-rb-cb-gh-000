@@ -88,8 +88,7 @@ def won?(board) #determines whether or not a player has won and returns the winn
     win_combo[2] = pos_three
 
     if board[pos_one] != " " && board[pos_one] == board[pos_two] && board[pos_two] == board[pos_three]
-    check to see if those indexes on the board are not " " and are equal to each other
-    
-    
+
+
   end
 end
