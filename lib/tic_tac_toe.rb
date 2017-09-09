@@ -112,7 +112,7 @@ def draw?(board)
 end
 
 #returns true if the game is ovr (win/draw)
-def won?(board)
+def over?(board)
   if won?(board) || draw?(board)
     true
 else
