@@ -122,4 +122,5 @@ end
 
 #returns the current player (X or O) depending on who won
 def winner(board)
-  if won?(board)
+  if won?(board) && 
+    
