@@ -83,9 +83,9 @@ end
 
 def won?(board) #determines whether or not a player has won and returns the winning combination if there is a win and false if there isn't
   WIN_COMBINATIONS.each do |win_combo|
-    win_combo[0] = pos_one
-    win_combo[1] = pos_two
-    win_combo[2] = pos_three
+    pos_one = win_combo[0]
+    pos_two = win_combo[1]
+    pos_three win_combo[2]
 
     if board[pos_one] != " " && board[pos_one] == board[pos_two] && board[pos_two] == board[pos_three]
       return win_combo
