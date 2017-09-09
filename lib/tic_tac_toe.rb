@@ -80,3 +80,5 @@ def turn(board)
     end
   end
 end
+
+def won?(board)
