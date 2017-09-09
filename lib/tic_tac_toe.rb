@@ -131,3 +131,4 @@ def winner(board)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+winner(board)
