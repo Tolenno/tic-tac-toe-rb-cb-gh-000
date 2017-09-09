@@ -130,5 +130,5 @@ def winner(board)
   end
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 winner(board)
