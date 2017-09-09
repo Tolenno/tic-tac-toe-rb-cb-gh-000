@@ -110,3 +110,5 @@ def draw?(board)
     false
   end
 end
+
+#returns true if the game is ovr (win/draw)
