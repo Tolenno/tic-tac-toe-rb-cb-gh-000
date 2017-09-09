@@ -95,5 +95,5 @@ def won?(board) #determines whether or not a player has won and returns the winn
 end
 
 def full?(board) #returns true if the board is full (draw)
-  board.include? " "
+  if board.include?(" ")
 end
