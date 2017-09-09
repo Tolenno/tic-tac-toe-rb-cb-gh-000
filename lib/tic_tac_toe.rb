@@ -96,8 +96,5 @@ end
 
 def full?(board) #returns true if the board is full (draw)
   board.include?(" ")
-    return true
-  else
-    false
   end
 end
