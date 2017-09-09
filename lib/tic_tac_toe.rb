@@ -99,4 +99,5 @@ def full?(board) #returns true if the board is full (draw)
     return true
   else
     false
+  end
 end
