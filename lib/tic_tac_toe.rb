@@ -125,3 +125,4 @@ def winner(board)
   if won?(board) && current_player(board) == "O"
     return "X"
   elsif won?(board) && current_player(board) == "X"
+    return "O"
