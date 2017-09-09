@@ -122,6 +122,7 @@ end
 
 #returns the current player (X or O) depending on who won
 def winner(board)
+  winning_marker = won?(board)[0]
   if won?(board)[0] == "X"
     return "X"
   elsif won?(board)[0] =="O"
