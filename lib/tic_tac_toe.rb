@@ -81,7 +81,8 @@ def turn(board)
   end
 end
 
-def won?(board) #determines whether or not a player has won and returns the winning combination if there is a win and false if there isn't
+#determines whether or not a player has won and returns the winning combination if there is a win and false if there isn't
+def won?(board) 
   WIN_COMBINATIONS.each do |win_combo|
     pos_one = win_combo[0]
     pos_two = win_combo[1]
@@ -94,8 +95,10 @@ def won?(board) #determines whether or not a player has won and returns the winn
   false
 end
 
-def full?(board) #returns true if the board is full (draw)
+#returns true if the board is full (draw)
+def full?(board) 
   !board.include?(" ")
 end
 
-
+#returns true if the board has not been won but is full, false if the board is not won and the board is not full, and false if the board is won
+def draw?(board)
