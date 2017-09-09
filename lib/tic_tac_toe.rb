@@ -106,5 +106,7 @@ def draw?(board)
     false
   elsif full?(board)
     true
+  else
+    false
   end
 end
