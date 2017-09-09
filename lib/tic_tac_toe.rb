@@ -1,5 +1,3 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
 #all win combinations for the game
 WIN_COMBINATIONS = [
   #across combinations
