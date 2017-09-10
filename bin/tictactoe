@@ -5,8 +5,10 @@ while !over?(board)
   turn(board)
   if won?(board)
     puts "Congratulations #{winner(board)}, you are the winner!"
+    break
   elsif draw?(board)
     puts "The game is a draw!"
+  end
 
 
 
