@@ -125,7 +125,7 @@ def winner(board)
   win_marker = won?(board)[0]
   if won?(board) && board[win_marker] == "X"
     puts win_marker
-    puts won?(board)[0]
+    puts board[win_marker]
     #return "X"
     puts "X"
   elsif won?(board) && board[won?(board)[0]] == "O"
