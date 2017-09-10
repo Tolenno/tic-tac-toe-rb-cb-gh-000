@@ -122,7 +122,7 @@ end
 
 #returns the current player (X or O) depending on who won
 def winner(board)
-  return board[won?(board)[0]] if won?(board)
+  return board[won?(board)[0]].to_s if won?(board)
 end
 
 #the play method is the method that rus the game using the helpr methods
