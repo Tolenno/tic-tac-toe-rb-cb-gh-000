@@ -129,7 +129,6 @@ def winner(board)
   elsif won?(board) && board[win_marker] == "O"
     return "O"
     puts "O"
-  else
   end
 end
 
