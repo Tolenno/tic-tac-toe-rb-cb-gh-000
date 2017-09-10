@@ -130,7 +130,7 @@ def winner(board)
     return "O"
     puts "O"
   else
-    return nil
+    return false
   end
 end
 
