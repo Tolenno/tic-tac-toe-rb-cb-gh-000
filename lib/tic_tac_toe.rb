@@ -125,14 +125,25 @@ def winner(board)
   return board[won?(board)[0]]
   if won?(board) && board[won?(board)[0]] == "X"
     return "X"
-    puts "X"
   elsif won?(board) && board[won?(board)[0]] == "O"
     return "O"
-    puts "O"
-  else
-    return nil
   end
 end
+
+#the play method is the method that rus the game using the helpr methods
+def play(board)
+  while !over?(board)
+  turn(board)
+  if won?(board)
+    puts "Congratulations #{winner(board)}, you are the winner!"
+    break
+  elsif draw?(board)
+    puts "The game is a draw!"
+    break
+  end
+end
+end
+
 
 board = ["X", "X", " ", " ", " ", " ", " ", " ", " "]
 winner(board)
