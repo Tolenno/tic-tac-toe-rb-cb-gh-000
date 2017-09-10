@@ -126,7 +126,7 @@ def winner(board)
     puts won?(board)[0]
     #return "X"
     puts "X"
-  elsif won?(board) && won?(board)[0] == "O"
+  elsif won?(board) && board(won?(board[0])) == "O"
     return "O"
     puts "O"
   else
