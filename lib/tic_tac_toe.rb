@@ -130,7 +130,7 @@ def play(board)
   while !over?(board)
   turn(board)
   if won?(board)
-    puts "Congratulations #{winner(board).to_s}!"
+    puts "Congratulations X!"
     break
   elsif draw?(board)
     puts "The game is a draw!"
