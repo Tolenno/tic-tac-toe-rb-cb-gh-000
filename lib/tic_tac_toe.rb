@@ -124,8 +124,10 @@ end
 def winner(board)
   if won?(board) != false && won?(board)[0] == "X"
     return "X"
+    puts "X"
   elsif won?(board) != false && won?(board)[0] == "O"
     return "O"
+    puts "X"
   else
     puts "false"
   end
