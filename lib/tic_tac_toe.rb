@@ -133,6 +133,7 @@ def play(board)
     puts "Congratulations X!"
     break
   elsif won?(board) && winner(board) == O
+    puts "Congratulation O!"
   elsif draw?(board)
     puts "The game is a draw!"
     break
