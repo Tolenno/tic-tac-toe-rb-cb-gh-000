@@ -122,6 +122,7 @@ end
 
 #returns the current player (X or O) depending on who won
 def winner(board)
+  return board[won?(board)[0]]
   if won?(board) && board[won?(board)[0]] == "X"
     return "X"
     puts "X"
