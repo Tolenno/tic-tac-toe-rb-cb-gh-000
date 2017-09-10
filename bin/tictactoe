@@ -4,7 +4,7 @@ require_relative '../lib/tic_tac_toe'
 while !over?(board)
   turn(board)
   if won?(board)
-    puts "Congratulations #{winner(board)}"
+    puts "Congratulations #{winner(board)}, you are the winner!"
 
 
 
