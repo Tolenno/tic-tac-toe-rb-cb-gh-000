@@ -134,7 +134,7 @@ end
 def play(board)
   while !over?(board)
   turn(board)
-  if won?(board)
+  if won?(board) && winner(board) == "X"
     puts "Congratulations #{winner(board)}, you are the winner!"
     break
   elsif draw?(board)
