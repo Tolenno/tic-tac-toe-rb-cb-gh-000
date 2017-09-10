@@ -6,7 +6,7 @@ require_relative '../lib/tic_tac_toe'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 #the play method is the method that rus the game using the helpr methods
-def play
+def play(board)
   while !over?(board)
   turn(board)
   if won?(board)
