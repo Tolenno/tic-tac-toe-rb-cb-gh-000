@@ -11,6 +11,7 @@ def play(board)
     puts "The game is a draw!"
     break
   end
+  end
 end
 
 
