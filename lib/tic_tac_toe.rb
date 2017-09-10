@@ -123,7 +123,7 @@ end
 #returns the current player (X or O) depending on who won
 def winner(board)
   win_marker = won?(board)[0]
-  if won?(board) && board[won?(board)[0]] == "X"
+  if won?(board) && board[win_marker] == "X"
     puts won?(board)[0]
     #return "X"
     puts "X"
