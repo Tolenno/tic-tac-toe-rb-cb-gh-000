@@ -122,14 +122,14 @@ end
 
 #returns the current player (X or O) depending on who won
 def winner(board)
-  return board[won?(board)[0]] if won?(board)
+  return board[won?(board)[0]] if won?(board).to_s
 end
 
 #the play method is the method that rus the game using the helpr methods
 def play(board)
   while !over?(board)
   turn(board)
-  if won?(board) && winner(board)
+  if won?(board) && winner(board) 
     puts "Congratulations #{winner(board)}!"
     break
   elsif draw?(board)
