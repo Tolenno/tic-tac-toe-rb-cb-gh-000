@@ -5,6 +5,7 @@ require_relative '../lib/tic_tac_toe'
 #the game board array - stores all moves
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
+#the play method is the method that rus the game using the helpr methods
 def play
   while !over?(board)
   turn(board)
