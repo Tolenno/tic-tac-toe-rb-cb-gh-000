@@ -127,11 +127,11 @@ def winner(board)
     puts "X"
   elsif won?(board) != false && won?(board)[0] == "O"
     return "O"
-    puts "X"
+    puts "O"
   else
     puts "false"
   end
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 winner(board)
