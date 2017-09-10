@@ -6,7 +6,8 @@ while !over?(board)
   if won?(board)
     puts "Congratulations #{winner(board)}, you are the winner!"
   elsif draw?(board)
-    
+    puts "The game is a draw!"
+
 
 
 
